@@ -110,6 +110,6 @@ dp.repairs = 0.01/12
 ### changing house price for condo
 ![](image/20211214191656.png)
 ### changing investing years for condo
-![](mage/20211214191725.png)
+![](image/20211214191725.png)
 ### changing tenant income for duplex
 ![](image/20211214191758.png)
