@@ -45,7 +45,7 @@ It contains the Housing class and the method to do sensitivity analysis
 ### real_estate_return_sensitivity_analysis.ipynb
 It contains my sensitivity analysis for a typical condo, townhouse, single family and duplex in California east bay.
 
-## My Baseline Assumptions
+## My Baseline Assumptions for California East Bay
 ```
 args = {
 # assumptions that should stay roughly unchanged from property to property
@@ -70,38 +70,62 @@ args = {
 ```
 ### Varying Assumptions for Condos
 condo=Housing(args)
+
 condo.investing_years = 7
+
 condo.house_price = 700000
+
 condo.tenant_income = 1/23/12
+
 condo.hoa = 500
+
 condo.appreciation = 0.01
+
 condo.repairs = 0 
 
 ### Varying Assumptions for Townhouse
 th=Housing(args)
+
 th.investing_years = 7
+
 th.house_price = 950000
+
 th.tenant_income = 1/25/12
+
 th.hoa = 400
+
 th.appreciation = 0.03
+
 th.repairs = 0.005/12
 
 ### Varying Assumptions for Single Family
 sfh=Housing(args)
+
 sfh.investing_years = 10
+
 sfh.house_price = 1000000
+
 sfh.tenant_income = 1/25/12
+
 sfh.hoa = 0
+
 sfh.appreciation = 0.03
+
 sfh.repairs = 0.01/12
 
 ## Varying Assumptions for Duplex
 dp=Housing(args)
+
 dp.investing_years = 10
+
 dp.house_price = 1300000
+
 dp.tenant_income = 1/20/12
+
 dp.hoa = 0
+
 dp.appreciation = 0.03
+
 dp.repairs = 0.01/12
 
 ## Sensitivity Analysis Example
