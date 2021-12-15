@@ -106,10 +106,10 @@ dp.repairs = 0.01/12
 
 ## Sensitivity Analysis Example
 ### changing hoa for condo
-![[image/Pasted image 20211214191623.png]]
+![](image/20211214191623.png)
 ### changing house price for condo
-![[image/Pasted image 20211214191656.png]]
+![](image/20211214191656.png)
 ### changing investing years for condo
-![[image/Pasted image 20211214191725.png]]
+![](mage/20211214191725.png)
 ### changing tenant income for duplex
-![[image/Pasted image 20211214191758.png]]
+![](image/20211214191758.png)
