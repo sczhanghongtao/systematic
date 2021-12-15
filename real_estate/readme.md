@@ -1,7 +1,7 @@
 # Property Monthly Payment and Investing Return Calculation
 
 ## Motivation
-I wrote this code to calculate monthly payment considering all the major costs, and more importantly, to understand the return from a property investment. Putting emotional value and diversification aside, in general, if the annualized return is lower than 7%, it's better to rent and invest the down payment in stock market.
+I wrote this code to calculate monthly payment considering all the major costs, and more importantly, to understand the return from a property investment. Putting emotional value and diversification aside, in general, if the annualized return(with tenant income including your own rent!) is lower than 7%, it's better to rent and invest the down payment in stock market.
 ## Modules
 ### housing_cal.py
 It contains the Housing class and the method to do sensitivity analysis
